@@ -1,0 +1,159 @@
+/* фон навбар */
+.custom-navbar{
+    box-shadow: 0px 0px 16px 0px #26262629;
+}
+
+
+/* общий__ограниченный__блок */
+.custom-container{
+    max-width: 75em;
+    width: 100%;
+    margin: 0 auto;
+}
+@media(max-width:575px){
+    .custom-container{
+        max-width: 29em;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media(min-width:575px) and (max-width:991px){
+    .custom-container{
+        max-width: 45em;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.hover-grow {
+    transition: transform 0.3s ease; /* Добавляем плавность при увеличении */
+}
+.hover-grow:hover {
+    transform: scale(1.1); /* Увеличиваем элемент на 10% при наведении */
+}
+.hover-grow-less{
+    transition: transform 0.3s ease;
+}
+.hover-grow-less:hover{
+    transform: scale(1.05);
+}
+
+
+/* Кнопка Войти */
+.custom-button{
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    margin:1em;
+}
+
+/* отступ корзины */
+.custom-basket{
+    padding:1em 0 1em 1em;
+}
+
+/* Поиск */
+.search-form{
+    margin-top: 2em;
+    margin-bottom: 3.5em;
+}
+.form-control{
+    border:0;
+    border-bottom: 0.1px solid #626262;
+}
+
+/* Заголовок и карточки */
+h4{
+    padding:15px 0;
+    margin-bottom: 1em;
+}
+.card-text{
+    margin-bottom: 4px;
+}
+.text-gray{
+    color: #626262;
+}
+.custom-text{
+    font-size: 0.9em;  
+}
+.card-body{
+    padding: 16px 0 ;
+}
+.footer-custom{
+    width:100%;
+    height:42em;
+    margin: 0 auto;
+}
+.row{
+    margin-bottom:5em;
+}
+.footer-logo-img{
+    margin-top: 2.5em;
+
+}
+   /* линия */
+.footer-line{
+    max-width: 75em;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top:3em;
+}
+.footer-line-parent .footer-line{
+    margin:0;
+}
+.dropdown .btn{
+    width: 15em;
+    height: 3em;
+    background: #3B3B3B;
+    border: none;
+}
+.world-icon{
+    padding:16px;
+}
+/* Отодвигаем стрелку к правому краю */
+.custom-arrow{
+    display: inline-block;
+    margin-left: auto; 
+}
+/* блоки для текстов */
+.footer-links{
+    max-width: 16em;
+    width: 100%;
+    height: 7em;
+    margin-top:4.5em;
+    display: flex; /* Для выравнивания */
+    flex-direction: column; /* Расположение ссылок вертикально */
+    gap: 1.5em;
+}
+.footer-link{
+    display: block;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+ /* социальные сети */
+ .social{
+    max-width: 6em;
+    width: 100%;
+    height: 4em;
+ }
+ .app-download{
+    margin:3em 0;
+ }
+ .link-block {
+    margin-bottom: 0; /* Убираем отступ по умолчанию */
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) { /* Для md (768px - 991.98px) */
+    .link-block:not(:last-child) {
+      margin-right: 8em; /* 106px в em */
+    }
+  }
+  
+  @media (min-width: 992px) { /* Для lg (992px и больше) */
+    .link-block:not(:last-child) {
+      margin-right: 15em; /* 174px в em */
+    }
+  }  
+  /* уменьшим размер последнего текста */
+  .text-xs{
+    font-size: 0.8em;
+  }
+
+

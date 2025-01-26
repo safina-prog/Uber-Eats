@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>Uber Eats</title>
+</head>
+
+<body>
+    <!-- Навигационная панель -->
+    <header>
+        <nav class="navbar navbar-light bg-light custom-navbar">
+            <div class="custom-container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand hover-grow" href="#">
+                    <img src="/logo.svg" alt="logo-brand">
+                </a>
+                <!-- Блок с кнопкой и корзиной -->
+                <div class="d-flex align-items-center">
+
+                    <!-- Кнопка "Войти" -->
+                    <button type="button" class="btn btn-light custom-button hover-grow">Войти</button>
+                    <!-- Корзина -->
+                    <a href="#" class="nav-link hover-grow">
+                        <img src="/basket.svg" alt="basket">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Поиск -->
+        <form class="search-form custom-container" role="Поиск по ресторанам и кухням">
+            <div class="input-group flex-nowrap">
+                <input type="text" class="form-control" name="query" placeholder="Поиск по ресторанам и кухням"
+                    aria-label="Поиск по ресторанам и кухням" aria-describedby="addon-wrapping">
+            </div>
+        </form>
+        <!-- Загаловок и карточки -->
+        <div class="custom-container">
+            <h4 class="h4">
+                Рестораны в Москве
+            </h4>
+            <div class="row">
+
+                <!-- Карточка 1 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/photo1.jpg" class="card-img-top" alt="Макдоналдс — Газетный">
+                    <div class="card-body">
+                        <h6 class="card-title">Макдоналдс — Газетный</h6>
+                        <p class="card-text text-gray">₽₽ • Бургеры </p>
+                        <p class="custom-text">25 - 35 мин</p>
+                    </div>
+                </div>
+                <!-- Карточка 2 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/photo2.jpg" class="card-img-top" alt="DimSum & Co — ЦДМ">
+                    <div class="card-body">
+                        <h6 class="card-title">DimSum & Co — ЦДМ</h6>
+                        <p class="card-text text-gray">₽ • Японская • Китайская • Азиатская </p>
+                        <p class="custom-text">40 - 50 мин</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 3 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/photo3.jpg" class="card-img-top" alt="ДвижОК — Манежная">
+                    <div class="card-body">
+                        <h6 class="card-title">ДвижОК — Манежная</h6>
+                        <p class="card-text text-gray">₽ • Американская • Европейская</p>
+                        <p class="custom-text">35 - 45 мин</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 4 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/photo4.jpg" class="card-img-top" alt="НЯ — NHA">
+                    <div class="card-body">
+                        <h6 class="card-title">НЯ — NHA</h6>
+                        <p class="card-text text-gray">₽₽ • Вьетнамская</p>
+                        <p class="custom-text">30 - 40 мин</p>
+                    </div>
+                </div>
+                <!-- Карточка 5 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/photo5.jpg" class="card-img-top" alt="Точка Дзы — Цветной">
+                    <div class="card-body">
+                        <h6 class="card-title">Точка Дзы — Цветной</h6>
+                        <p class="card-text text-gray">₽₽ • Вьетнамскаяя</p>
+                        <p class="custom-text">40 - 50 мин</p>
+                    </div>
+                </div>
+                <!-- Карточка 6 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/6.jpg" class="card-img-top" alt="Cinnabon">
+                    <div class="card-body">
+                        <h6 class="card-title">Cinnabon</h6>
+                        <p class="card-text text-gray">₽ • Выпечка • Десерты • Капкейки</p>
+                        <p class="custom-text">25 - 35 мин</p>
+                    </div>
+                </div>
+                <!-- Карточка 7 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/7.jpg" class="card-img-top" alt="PIZZELOVE">
+                    <div class="card-body">
+                        <h6 class="card-title">PIZZELOVE</h6>
+                        <p class="card-text text-gray">₽₽ • Пицца</p>
+                        <p class="custom-text">15 - 25 мин</p>
+                    </div>
+                </div>
+                <!-- Карточка 8 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/8.jpg" class="card-img-top" alt="Zю кафе — Тверская">
+                    <div class="card-body">
+                        <h6 class="card-title">Zю кафе — Тверская</h6>
+                        <p class="card-text text-gray">₽₽ • Японская</p>
+                        <p class="custom-text">25 - 35 мин</p>
+                    </div>
+                </div>
+                <!-- Карточка 9 -->
+
+                <div class="card col-xs-12 col-md-6 col-lg-4 hover-grow-less" style="border:none;">
+                    <img src="/9.jpg" class="card-img-top" alt="Bar BQ Cafe — Манежная">
+                    <div class="card-body">
+                        <h6 class="card-title">Bar BQ Cafe — Манежная</h6>
+                        <p class="card-text text-gray">₽₽₽ • Европейская</p>
+                        <p class="custom-text">30 - 40 мин</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-custom" style="background: #262626;">
+        <div class="custom-container">
+            <a href="#">
+                <img src="/big-logo.svg" alt="footer-logo" class="footer-logo-img hover-grow-less">
+            </a>
+            <div class="footer-line"></div> <!-- класс для линии -->
+            <!-- Dropdown -->
+            <div class="dropdown d-flex justify-content-between align-items-center">
+                <button class="btn btn-secondary dropdown-toggle d-flex align-items-center" type="button"
+                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="/world.svg" alt="World Icon" class="world-icon">Русский
+                    <span class="custom-arrow"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Английский</a></li>
+                </ul>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Об UberEats</a>
+                    <a href="#" class="footer-link">Станьте партнёром по доставке</a>
+                    <a href="#" class="footer-link">Станьте парнёром-рестораном</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Все города</a>
+                    <a href="#" class="footer-link">Центы</a>
+                    <a href="#" class="footer-link">Помощь</a>
+                    <a href="#" class="footer-link">FAQs</a>
+                </div>
+            </div>
+            <div class="social">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+                    <img src="/hashtag.svg" alt="hashtag">
+                    <span class="hashtag-text">UberEats</span>
+                </a>
+                <a href="#" class="social-icons text-decoration-none">
+                    <img src="/facebook.svg" alt="icon-facebook" class="mt-3 me-1 hover-grow">
+                    <img src="/twitter.svg" alt="icon-twitter" class="mt-3 me-1 hover-grow">
+                    <img src="/instagram.svg" alt="icon-instagram" class="mt-3 hover-grow">
+                </a>
+            </div>
+            <div class="footer-line"></div> <!-- класс для линии -->
+            <!-- приложении для скачивания -->
+            <div class="d-flex justify-content-center" style="gap:3em">
+                <a href="#" class="text-decoration-none hover-grow">
+                    <img src="/appstore.svg" alt="App Store" class="app-download">
+                </a>
+                <a href="#" class="text-decoration-none hover-grow">
+                    <img src="/googleplay.svg" alt="googleplay" class="app-download">
+                </a>
+            </div>
+            <div class="footer-line-parent">
+                <div class="footer-line"></div> <!-- класс для линии -->
+            </div>
+            <div class="row">
+                <!-- Колонка с копирайтом -->
+                <div class="col-12 d-flex flex-lg-row flex-column flex-wrap mt-5">
+                    <a href="#" target="_blank" class="d-flex text-decoration-none text-white link-block text-xs">
+                        © 2017 Uber Technologies Inc.
+                    </a>
+
+                    <a href="#" target="_blank" class="d-flex text-decoration-none text-white link-block text-xs">
+                        Обработка персональных данных
+                    </a>
+                    <a href="#" target="_blank" class="d-flex text-decoration-none text-white link-block text-xs">
+                        Пользовательское соглашение
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
